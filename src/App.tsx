@@ -3,9 +3,9 @@ import Typewriter from 'typewriter-effect';
 import { Github, Mail, Linkedin, Terminal, Code, Briefcase, User, FileText } from 'lucide-react';
 
 function App() {
-  const [scanlineEffect, setScanlineEffect] = useState(true);
-  const [glowEffect, setGlowEffect] = useState(true);
-  const [flickerEffect, setFlickerEffect] = useState(true);
+  const [scanlineEffect, setScanlineEffect] = useState(false);
+  const [glowEffect, setGlowEffect] = useState(false);
+  const [flickerEffect, setFlickerEffect] = useState(false);
 
   useEffect(() => {
     document.title = "Suhaib Khan | Portfolio";
