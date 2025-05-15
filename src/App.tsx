@@ -23,27 +23,27 @@ function App() {
 
       <div className={`container mx-auto px-4 py-12 relative z-10 ${glowEffect ? 'text-glow' : ''}`}>
         <header className="mb-12 border-b border-green-500 pb-4">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+          <div className="flex flex-row justify-between items-center gap-2 md:gap-4">
             <div className="terminal-header flex items-center">
               <Terminal className="mr-2" />
               <h1 className="text-xl md:text-2xl font-bold">suhaib@portfolio:~$</h1>
             </div>
-            <div className="flex flex-wrap justify-center gap-2">
+            <div className="flex flex-wrap justify-end gap-1 md:gap-2">
               <button
                 onClick={() => setScanlineEffect(!scanlineEffect)}
-                className="px-2 py-1 border border-green-500 hover:bg-green-900 transition-colors"
+                className="px-1 py-0.5 text-xs md:px-2 md:py-1 md:text-base border border-green-500 hover:bg-green-900 transition-colors"
               >
                 Scanlines
               </button>
               <button
                 onClick={() => setGlowEffect(!glowEffect)}
-                className="px-2 py-1 border border-green-500 hover:bg-green-900 transition-colors"
+                className="px-1 py-0.5 text-xs md:px-2 md:py-1 md:text-base border border-green-500 hover:bg-green-900 transition-colors"
               >
                 Glow
               </button>
               <button
                 onClick={() => setFlickerEffect(!flickerEffect)}
-                className="px-2 py-1 border border-green-500 hover:bg-green-900 transition-colors"
+                className="px-1 py-0.5 text-xs md:px-2 md:py-1 md:text-base border border-green-500 hover:bg-green-900 transition-colors"
               >
                 Flicker
               </button>
