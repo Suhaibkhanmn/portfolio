@@ -76,10 +76,10 @@ function App() {
                 <a href="https://github.com/Suhaibkhanmn" target="_blank" rel="noopener noreferrer" className="social-link">
                   <Github className="inline mr-1" size={18} /> GitHub
                 </a>
-                <a href="mailto:contact@example.com" className="social-link">
+                <a href="mailto:mnsuhaibkhan@gmail.com" className="social-link">
                   <Mail className="inline mr-1" size={18} /> Email
                 </a>
-                <a href="https://linkedin.com/in/example" target="_blank" rel="noopener noreferrer" className="social-link">
+                <a href="https://www.linkedin.com/in/suhaibkhanmn/" target="_blank" rel="noopener noreferrer" className="social-link">
                   <Linkedin className="inline mr-1" size={18} /> LinkedIn
                 </a>
               </div>
@@ -161,10 +161,10 @@ function App() {
             <div className="pl-4">
               <p className="mb-4">Feel free to reach out!</p>
               <div className="flex flex-col md:flex-row gap-4">
-                <a href="mailto:contact@example.com" className="contact-button">
+                <a href="mailto:mnsuhaibkhan@gmail.com" className="contact-button">
                   <Mail className="inline mr-2" /> Email Me
                 </a>
-                <a href="https://linkedin.com/in/example" target="_blank" rel="noopener noreferrer" className="contact-button">
+                <a href="https://www.linkedin.com/in/suhaibkhanmn/" target="_blank" rel="noopener noreferrer" className="contact-button">
                   <Linkedin className="inline mr-2" /> Connect on LinkedIn
                 </a>
                 <a href="https://github.com/Suhaibkhanmn" target="_blank" rel="noopener noreferrer" className="contact-button">
