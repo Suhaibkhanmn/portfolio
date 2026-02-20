@@ -3,6 +3,7 @@
 import { useRef, useState } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Float, OrbitControls, Points, PointMaterial } from "@react-three/drei";
+// @ts-expect-error: maath missing declaration types
 import * as random from "maath/random/dist/maath-random.esm";
 import * as THREE from "three";
 
@@ -42,7 +43,8 @@ function IcosahedronNode() {
 }
 
 function Starfield() {
-    const ref = useRef<any>();
+    const ref = useRef<any>(null);
+    // @ts-ignore: TS misses the second argument for options in maath
     const [sphere] = useState(() => random.inSphere(new Float32Array(1000), { radius: 4 }));
 
     useFrame((state, delta) => {
