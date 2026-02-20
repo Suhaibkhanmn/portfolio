@@ -107,3 +107,57 @@
         transform: translate(-30px, 40px) scale(1.1);
     }
 }
+
+@media (max-width: 1024px) {
+    .heroSection {
+        min-height: auto;
+        padding-top: 8rem;
+        padding-bottom: 4rem;
+    }
+
+    .container {
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .heroContent {
+        max-width: 800px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .abstractGraphic {
+        height: 400px;
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .heroSection {
+        padding-top: 6rem;
+        padding-bottom: 2rem;
+    }
+
+    .abstractGraphic {
+        height: 350px;
+    }
+
+    .orb1 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .orb2 {
+        width: 180px;
+        height: 180px;
+    }
+
+    .orb3 {
+        width: 100px;
+        height: 100px;
+    }
+}

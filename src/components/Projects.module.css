@@ -5,6 +5,18 @@
     background: var(--bg-color);
 }
 
+@media (max-width: 1024px) {
+    .projectsSection {
+        padding: 5rem 5%;
+    }
+}
+
+@media (max-width: 768px) {
+    .projectsSection {
+        padding: 3rem 5%;
+    }
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;

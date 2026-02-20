@@ -65,7 +65,7 @@ function Starfield() {
 
 export default function Hero3D() {
     return (
-        <div style={{ width: "100%", height: "500px", position: "relative", cursor: "grab" }}>
+        <div style={{ width: "100%", height: "100%", position: "relative", cursor: "grab", pointerEvents: "auto" }}>
             <Canvas camera={{ position: [0, 0, 6], fov: 45 }}>
                 <ambientLight intensity={0.5} />
                 <directionalLight position={[10, 10, 10]} intensity={1} />

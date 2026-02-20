@@ -26,6 +26,20 @@ const projects = [
         description: "Reactive incident management leads to expensive, avoidable enterprise contract violations. This project integrates XGBoost models into live data pipelines, structured for low-latency inference. This optimizes alert quality, achieving 92.4% precision in production environments.",
         link: "https://github.com/Suhaibkhanmn/SLA-prediction",
         tags: ["Applied ML", "XGBoost", "Data Pipelines"]
+    },
+    {
+        title: "EARNINGS INTELLIGENCE ENGINE",
+        tagline: "Production-ready system that ingests and analyzes earnings call data.",
+        description: "An AI-powered intelligence engine that automates the ingestion and structural analysis of corporate earnings calls. It provides deep analytical capabilities over unstructured financial data, extracting key insights and sentiment from transcripts to accelerate financial research.",
+        link: "https://github.com/Suhaibkhanmn/earnings-report-engine",
+        tags: ["LLMs", "Data Pipelines", "Financial Analysis", "Python"]
+    },
+    {
+        title: "DECENTRALIZED FREELANCE ESCROW",
+        tagline: "Trustless smart contract escrow system for freelance work.",
+        description: "A decentralized platform built on Ethereum using Foundry. It eliminates counterparty risk in freelance engagements by utilizing smart contracts to hold funds securely until mutually agreed milestones are met, ensuring fair and transparent compensation without reliance on traditional intermediaries.",
+        link: "https://github.com/Suhaibkhanmn/Decentralized-Freelancer-Escrow-Platform",
+        tags: ["Web3", "Solidity", "Foundry", "Smart Contracts"]
     }
 
 ];
