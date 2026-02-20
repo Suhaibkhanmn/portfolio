@@ -1,0 +1,109 @@
+.heroSection {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5%;
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    gap: 4rem;
+}
+
+.heroContent {
+    flex: 1;
+    max-width: 600px;
+    z-index: 2;
+    text-align: left;
+}
+
+.mainHeading {
+    font-family: var(--font-heading), sans-serif;
+    font-size: clamp(3rem, 8vw, 6rem);
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.02em;
+    color: var(--text-primary);
+}
+
+.subHeading {
+    font-family: var(--font-inter), sans-serif;
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+    color: var(--text-secondary);
+    letter-spacing: -0.01em;
+}
+
+.tagline {
+    font-size: clamp(1.1rem, 2vw, 1.4rem);
+    line-height: 1.6;
+    max-width: 600px;
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+/* Abstract Graphic */
+.abstractGraphic {
+    flex: 1;
+    position: relative;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+}
+
+.orb {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+    opacity: 0.5;
+    animation: float 8s ease-in-out infinite alternate;
+}
+
+.orb1 {
+    width: 300px;
+    height: 300px;
+    background: var(--text-secondary);
+    top: 0%;
+    right: 10%;
+    animation-delay: 0s;
+}
+
+.orb2 {
+    width: 350px;
+    height: 350px;
+    background: var(--accent);
+    bottom: 5%;
+    left: 10%;
+    animation-delay: -3s;
+}
+
+.orb3 {
+    width: 250px;
+    height: 250px;
+    background: rgba(0, 0, 0, 0.05);
+    top: 30%;
+    left: 30%;
+    animation-delay: -5s;
+}
+
+@keyframes float {
+    0% {
+        transform: translate(0, 0) scale(1);
+    }
+
+    100% {
+        transform: translate(-30px, 40px) scale(1.1);
+    }
+}
